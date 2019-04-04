@@ -4,7 +4,7 @@ OPC Variable Service
 =======
 
 ## Introduction
-This provided service from the OPC-UA service prosumer provides the information available from an OPC-UA enabled device.
+This provided service from the [OPC-UA](https://github.com/nenovrak/OPC-UAprosumer/blob/master/OPC%20Unified%20Architecture.pdf) service prosumer provides the information available from an OPC-UA enabled device.
 
 ## Service description
 Provider will listen for incoming requests from Consumers wanting to read OPC-UA variables.
@@ -13,7 +13,7 @@ These values are sent as URL parameters in the following way:
 ```
 HTTP GET opcVariable/{address}/{namespace}/{variableName}
 ```
-Here "address" is the IP and port to the OPC-UA endpoint, "namespace" is the OPC-UA namespace one wishes to use, and "variableName" is the name of an variable within that namespace wrapped in double quotation marks (you might need to URL encode these using %22). An example of such an GET request to read the variable xBG5 in namespace 3 can be found below:
+Here "address" is the IP and port to the [OPC-UA](https://github.com/nenovrak/OPC-UAprosumer/blob/master/OPC%20Unified%20Architecture.pdf) endpoint, "namespace" is the OPC-UA namespace one wishes to use, and "variableName" is the name of an variable within that namespace wrapped in double quotation marks (you might need to URL encode these using %22). An example of such an GET request to read the variable xBG5 in namespace 3 can be found below:
 ```
 HTTP GET {providerIP:port}/opcVariable/10.48.134.10:4840/3/%22xBG5%22
 ```

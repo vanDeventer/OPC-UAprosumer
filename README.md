@@ -35,6 +35,9 @@ The `-auth` flag is optional and only adds the example Consumer found in the "te
 ### Shutdown
 To **stop** the prosumer, type `stop` in the Terminal window in which it was started.
 
-## Prosumer design
-This prosumer is not proprietary.
-Its design description can be found in the file: [prosumerDesignDescription.md](prosumerDesignDescription.md)
+## Use cases
+![Use case](Figures/useCase.png)
+
+## Sequence diagrams
+![Sequence diragram](Figures/sequence.png)
+

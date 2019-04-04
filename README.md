@@ -29,7 +29,7 @@ NOTE! There are no OPC-UA configurations available in this file yet.
 Build the module using [Maven](http://maven.apache.org/).
 
 ### Run
-To **start** the service prosumer, run: `java -jar provider-4.0.jar -auth` after building the Maven module. 
+To **start** the service prosumer, run: `java -jar provider-4.0.jar -auth` in the *target* folder after building the Maven module. 
 The `-auth` flag is optional and only adds the example Consumer found in the "tester" folder to the IntraCloud authorization so that it is allowed to consume the service.
 
 ### Shutdown

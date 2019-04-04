@@ -19,9 +19,9 @@ The prosumer consumes the necessary services of the core prosumers within its lo
 - [Orchestration](https://github.com/arrowhead-f/core-java/tree/master/documentation/Orchestrator)
 
 ## Installation
-This prosumer is a [Maven](http://maven.apache.org/) module. To build and run this prosumer, use the following steps:
+This prosumer is a [Maven](http://maven.apache.org/) module. To build and run this prosumer, use the following steps.
 
-### Configuration
+### Configure
 NOTE! There are no OPC-UA configurations available in this file yet. 
 
 ### Build

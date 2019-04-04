@@ -9,7 +9,10 @@ This provided service from the OPC-UA service prosumer provides the information 
 ## Service description
 Provider will listen for incoming requests from Consumers wanting to read OPC-UA variables.
 A Consumer can read an OPC-UA variable by making a HTTP GET request to the Provider sending it the OPC-UA endpoint, namespace, and variable it wishes to read.
-These values are sent as URL parameters in the following way: GET opcVariable/{address}/{namespace}/{variableName}.
+These values are sent as URL parameters in the following way: 
+```
+GET opcVariable/{address}/{namespace}/{variableName}
+```
 Here "address" is the IP and port to the OPC-UA endpoint, "namespace" is the OPC-UA namespace one wishes to use, and "variableName" is the name of an variable within that namespace wrapped in double quotation marks (you might need to URL encode these using %22). An example of such an GET request to read the variable xBG5 in namespace 3 can be found below:
 ```
 {providerIP:port}/opcVariable/10.48.134.10:4840/3/%22xBG5%22

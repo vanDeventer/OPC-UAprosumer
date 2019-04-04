@@ -18,6 +18,8 @@ Being an Arrowhead Framework service prosumer, it produces and consumes services
 The prosumer consumes the necessary services of the core prosumers within its local cloud, such as:
 - [Orchestration](https://github.com/arrowhead-f/core-java/tree/master/documentation/Orchestrator)
 
+=======
+
 ## Installation
 This prosumer is a [Maven](http://maven.apache.org/) module. To build and run this prosumer, use the following steps.
 

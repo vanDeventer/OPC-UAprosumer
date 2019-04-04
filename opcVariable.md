@@ -18,9 +18,8 @@ Here *OPC-UA_endpointIP:port* is the IP and port to the [OPC-UA](https://github.
 HTTP GET {providerIP:port}/opcVariable/10.48.134.10:4840/3/%22xBG5%22
 ```
 
-When the Provider has received a request, it will first assess whether there is already an open connection to that endpoint.
-If not it will connect to the endpoint and keep that connection until the Provider is shut down.
-Then, it will read the requested variable and return its value, type and timestamp in a JSON format. An example output from the service is found below:
+When the Provider receives a request, it will first assess whether there is already an open connection to that endpoint.
+If not it will connect to the endpoint and keep that connection throughout the lifetime of the service. It will then read the requested OPC-UA variable and return its *value*, *type* and *timestamp* in a JSON object. An example output from the service is shown below:
 
 ```
 {

@@ -23,7 +23,7 @@ The prosumer consumes the necessary services of the core prosumers within its lo
 This prosumer is a [Maven](http://maven.apache.org/) module. To build and run this prosumer, use the following steps.
 
 ### Configure
-NOTE! There are no OPC-UA configurations available in this file yet. 
+In the configuration file for the provider: */provider/config/default.conf* you will find the settings for this prosumer.  NOTE! For the example Consumer (found in the *tester* folder), there are no OPC-UA configurations available in its configuration file in the current implementation. The OPC-UA related variables for the tester can be found in */tester/src/main/java/eu/arrowhead/tester/OPC2RESTConsumer.java* and more specifically in the "consumeService" method.
 
 ### Build
 Build the module using [Maven](http://maven.apache.org/).

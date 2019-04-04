@@ -1,4 +1,4 @@
-Arrowhead Framework OPC-UA service prosumer:
+Arrowhead Framework OPC-UA service prosumer
 =======
 Prosumer Description
 =======

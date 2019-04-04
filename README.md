@@ -18,13 +18,6 @@ Being an Arrowhead Framework service prosumer, it produces and consumes services
 The prosumer consumes the necessary services of the core prosumers within its local cloud, such as:
 - [Orchestration](https://github.com/arrowhead-f/core-java/tree/master/documentation/Orchestrator)
 
-## Unresolved issues
-- **Configuration file**: there are no description of how one sets up the variable IDs and port number.
-- *Disconnecting from the OPC-UA device*: in this version, the connection between the prosumer and the OPC-UA device is persistent. The prosumer needs to be shut down to disconnect it from the device.
-- *Shutdown procedure*: the word `stop` has to be typed at the terminal prompt.
-- *Safety*: the prosumer does not offer safety services.
-- *Reregister*: the prosumer does not offer service re-registration services.
-
 ## Basic operations
 To **start** the service prosumer, run: `java -jar provider-4.0.jar -auth` after building the Maven module. 
 The `-auth` flag is optional and only adds the Consumer found in the "tester" folder to the IntraCloud authorization so that it is allowed to consume the service.

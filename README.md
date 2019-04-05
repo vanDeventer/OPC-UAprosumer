@@ -5,17 +5,17 @@ Prosumer Description
 
 This is a service prosumer compatible with the [Arrowhead Framework 4.x](https://github.com/arrowhead-f).
 
-[1. Introduction](#introduction)
-[2. Services](#services)
-[2.1 Produced Services](#produced-services)
-[2.2 Consumed Services](#consumed-services)
-[3. Installation](#installation)
-[3.1 Configuration](#configuration)
-[3.2 Build](#build)
-[3.3 Run](#run)
-[3.4 Shutdown](#shutdown)
-[4. Use-cases](#use-cases)
-[5. Sequence diagrams](#sequence-diagrams)
+[1. Introduction](#introduction) . 
+[2. Services](#services) . 
+[2.1 Produced Services](#produced-services) . 
+[2.2 Consumed Services](#consumed-services) . 
+[3. Installation](#installation) . 
+[3.1 Configuration](#configuration) . 
+[3.2 Build](#build) . 
+[3.3 Run](#run) . 
+[3.4 Shutdown](#shutdown) . 
+[4. Use-cases](#use-cases) . 
+[5. Sequence diagrams](#sequence-diagrams) . 
 
 ## Introduction
 The Arrowhead Framework OPC-UA service prosumer is a (Java) program that allows other Arrowhead Prosumers to connect to OPC-UA endpoints (e.g. a PLC) and read variables from them. It can be seen as a wrapper that enables the OPC-UA device to offer services within a local cloud.

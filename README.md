@@ -7,8 +7,8 @@ This is a service prosumer compatible with the [Arrowhead Framework 4.x](https:/
 
 [1. Introduction](#introduction)  
 [2. Services](#services)  
-[2.1 Produced Services](#produced-services)  
-[2.2 Consumed Services](#consumed-services)  
+- [2.1 Produced Services](#produced-services)  
+- [2.2 Consumed Services](#consumed-services)  
 [3. Installation](#installation)  
 [3.1 Configuration](#configuration)  
 [3.2 Build](#build)  

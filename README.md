@@ -16,6 +16,7 @@ This is a service prosumer compatible with the [Arrowhead Framework 4.x](https:/
 [--- 3.4 Shutdown](#shutdown)  
 [4. Use-cases](#use-cases)  
 [5. Sequence diagrams](#sequence-diagrams)  
+[6. Unresolved issues](#unresolved-issues)  
 
 ## Introduction
 The Arrowhead Framework OPC-UA service prosumer is a (Java) program that allows other Arrowhead Prosumers to connect to OPC-UA endpoints (e.g. a PLC) and read variables from them. It can be seen as a wrapper that enables the OPC-UA device to offer services within a local cloud.
@@ -53,3 +54,9 @@ To **stop** the prosumer, type `stop` in the Terminal window in which it was sta
 ## Sequence diagrams
 ![Sequence diragram](Figures/sequence.png)
 
+## Unresolved issues
+- **Configuration file**: in the use case diagram, a technician types in the configuration file which ID number refers to which signal.
+- *Disconnecting from the OPC-UA device*: in this version, the connection between the prosumer and the OPC-UA device is persistent. The prosumer needs to be shut down to disconnect it from the device.
+- *Shutdown procedure*: the word `stop` has to be typed at the terminal prompt.
+- *Safety*: the prosumer does not offer safety services.
+- *Reregister*: the prosumer does not offer service re-registration services.

@@ -10,7 +10,7 @@ This is a service prosumer compatible with the [Arrowhead Framework 4.x](https:/
 [--- 2.1 Produced Services](#produced-services)  
 [--- 2.2 Consumed Services](#consumed-services)  
 [3. Installation](#installation)  
-[--- 3.1 Configuration](#configuration)  
+[--- 3.1 Configure](#configure)  
 [--- 3.2 Build](#build)  
 [--- 3.3 Run](#run)  
 [--- 3.4 Shutdown](#shutdown)  
